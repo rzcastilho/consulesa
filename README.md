@@ -11,13 +11,13 @@ An opinionated Consul CLI to do things that I guess the original Consul CLI can'
 
 Manage Consul addresses.
 
-[![asciicast](https://asciinema.org/a/ldTtnKu7dP9rkrhvwDLp5OiwV.svg)](https://asciinema.org/a/ldTtnKu7dP9rkrhvwDLp5OiwV)
+<script src="https://asciinema.org/a/ldTtnKu7dP9rkrhvwDLp5OiwV.js" id="asciicast-ldTtnKu7dP9rkrhvwDLp5OiwV" async="true"></script>
 
 ### Find
 
 Finds keys or values recursively in Consul KV.
 
-[![asciicast](https://asciinema.org/a/HHI4acCJfox2XK987mxn5PyXl.svg)](https://asciinema.org/a/HHI4acCJfox2XK987mxn5PyXl)
+<script src="https://asciinema.org/a/HHI4acCJfox2XK987mxn5PyXl.js" id="asciicast-HHI4acCJfox2XK987mxn5PyXl" async="true"></script>
 
 ### Replace
 
