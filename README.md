@@ -23,4 +23,4 @@ Finds keys or values recursively in Consul KV.
 
 Replaces values recursively in Consul KV.
 
-**Not implemented yet!**
+*Not implemented yet!*
