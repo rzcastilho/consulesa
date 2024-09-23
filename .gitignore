@@ -27,7 +27,7 @@ erl_crash.dump
 consulesa-*.tar
 
 # Ignore escript binary (built via "mix escript.build").
-consulesa
+/consulesa
 
 # Temporary files, for example, from tests.
 /tmp/
