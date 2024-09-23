@@ -1,0 +1,51 @@
+services:
+  consul-dev:
+    image: hashicorp/consul:latest
+    restart: always
+    command:
+      - agent
+      - -server
+      - -ui
+      - -node=consul-dev
+      - -datacenter=dev
+      - -bootstrap-expect=1
+      - -client=0.0.0.0
+    ports:
+      - 8501:8500
+    volumes:
+      - data-consul-dev:/consul/data
+  consul-stg:
+    image: hashicorp/consul:latest
+    restart: always
+    command:
+      - agent
+      - -server
+      - -ui
+      - -node=consul-stg
+      - -datacenter=stg
+      - -bootstrap-expect=1
+      - -client=0.0.0.0
+    ports:
+      - 8502:8500
+    volumes:
+      - data-consul-stg:/consul/data
+  consul-prd:
+    image: hashicorp/consul:latest
+    restart: always
+    command:
+      - agent
+      - -server
+      - -ui
+      - -node=consul-prd
+      - -datacenter=prd
+      - -bootstrap-expect=1
+      - -client=0.0.0.0
+    ports:
+      - 8503:8500
+    volumes:
+      - data-consul-prd:/consul/data
+
+volumes:
+  data-consul-dev:
+  data-consul-stg:
+  data-consul-prd:

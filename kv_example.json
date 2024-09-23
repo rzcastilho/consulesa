@@ -1,0 +1,42 @@
+[
+  {
+    "LockIndex": 0,
+    "Key": "app/config/database/host",
+    "Flags": 0,
+    "Value": "aHR0cDovL2xvY2FsaG9zdA==",
+    "CreateIndex": 1000,
+    "ModifyIndex": 1000
+  },
+  {
+    "LockIndex": 0,
+    "Key": "app/config/database/port",
+    "Flags": 0,
+    "Value": "NTQzMg==",
+    "CreateIndex": 1001,
+    "ModifyIndex": 1001
+  },
+  {
+    "LockIndex": 0,
+    "Key": "app/config/feature_flag/new_feature_enabled",
+    "Flags": 0,
+    "Value": "dHJ1ZQ==",
+    "CreateIndex": 1002,
+    "ModifyIndex": 1002
+  },
+  {
+    "LockIndex": 0,
+    "Key": "app/config/logging/level",
+    "Flags": 0,
+    "Value": "ZGVidWc=",
+    "CreateIndex": 1003,
+    "ModifyIndex": 1003
+  },
+  {
+    "LockIndex": 0,
+    "Key": "app/config/api/timeout",
+    "Flags": 0,
+    "Value": "MzAwMA==",
+    "CreateIndex": 1004,
+    "ModifyIndex": 1004
+  }
+]
