@@ -1,21 +1,26 @@
+[![CD](https://github.com/rzcastilho/consulesa/actions/workflows/cd.yaml/badge.svg)](https://github.com/rzcastilho/consulesa/actions/workflows/cd.yaml)
+![GitHub Release](https://img.shields.io/github/v/release/rzcastilho/consulesa)
+
 # Consulesa
 
-**TODO: Add description**
+An opinionated Consul CLI to do things that I guess the original Consul CLI can't do.
 
-## Installation
+## Commands
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `consulesa` to your list of dependencies in `mix.exs`:
+### Address
 
-```elixir
-def deps do
-  [
-    {:consulesa, "~> 0.1.0"}
-  ]
-end
-```
+Manage Consul addresses.
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/consulesa>.
+[![asciicast](https://asciinema.org/a/ldTtnKu7dP9rkrhvwDLp5OiwV.svg)](https://asciinema.org/a/ldTtnKu7dP9rkrhvwDLp5OiwV)
 
+### Find
+
+Finds keys or values recursively in Consul KV.
+
+[![asciicast](https://asciinema.org/a/HHI4acCJfox2XK987mxn5PyXl.svg)](https://asciinema.org/a/HHI4acCJfox2XK987mxn5PyXl)
+
+### Replace
+
+Replaces values recursively in Consul KV.
+
+**Not implemented yet!**
