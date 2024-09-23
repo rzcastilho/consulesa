@@ -50,12 +50,14 @@ jobs:
         arch: [aarch64, x86_64]
         ext: ["", .exe]
         exclude:
-          - os: windows
-            arch: aarch64
-          - os: [linux, macos]
+          - os: linux
+            ext: .exe
+          - os: macos
             ext: .exe
           - os: windows
             ext: ""
+          - os: windows
+            arch: aarch64
     needs: release
     steps:
       - name: Restore Assets from Cache
