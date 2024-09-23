@@ -24,3 +24,7 @@ Finds keys or values recursively in Consul KV.
 Replaces values recursively in Consul KV.
 
 *Not implemented yet!*
+
+## Download
+
+Releases: https://github.com/rzcastilho/consulesa/releases
