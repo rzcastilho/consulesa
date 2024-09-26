@@ -12,4 +12,11 @@ defmodule Consulesa.Http.ConsulClient do
       _ -> raise "Error fetching KV's from Consul"
     end
   end
+
+  def put_kv(client, key, value) do
+    case Req.put!(client, url: "/v1/kv/#{key}", body: value) do
+      %{body: body, status: 200} -> body
+      _ -> raise "Error upserting KV '#{key}' at Consul"
+    end
+  end
 end

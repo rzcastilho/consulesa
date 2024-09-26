@@ -10,10 +10,10 @@ defmodule Consulesa.Command.Address.Remove do
     case Map.fetch(addresses, name) do
       {:ok, url} ->
         Commfig.unset(["addresses", name])
-        IO.puts("Address name '#{name}' successfully removed! [#{url}]")
+        IO.puts("Address '#{name}' successfully removed! [#{url}]")
 
       :error ->
-        IO.puts("Address name '#{name}' not found!")
+        IO.puts("Address '#{name}' not found!")
     end
   end
 end
