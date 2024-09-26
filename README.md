@@ -7,6 +7,17 @@ An opinionated Consul CLI to do things that I guess the original Consul CLI can'
 
 ## Commands
 
+```mermaid
+mindmap
+  root(consulesa)
+    (address)
+      (add)
+      (remove)
+      (list)
+    (find)
+    (replace)
+```
+
 ### Address
 
 Manage Consul addresses.
