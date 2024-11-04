@@ -1,4 +1,7 @@
 defmodule Consulesa.Helpers.FilterAndTransform do
+  def parse_entry(%{"Key" => key, "Value" => nil}),
+    do: %{"key" => key, "value" => nil}
+
   def parse_entry(%{"Key" => key, "Value" => value}),
     do: %{"key" => key, "value" => Base.decode64!(value)}
 
